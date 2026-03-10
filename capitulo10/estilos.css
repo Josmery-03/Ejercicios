@@ -1,0 +1,51 @@
+.root{
+    -fx-background-color: linear-gradient(to bottom,#f7d9ef,#e6d9ff);
+}
+
+/* TITULO */
+.titulo{
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #5a5a8a;
+}
+
+/* LABELS */ 
+.label{
+    -fx-font-size: 13px;
+}
+
+/* CAMPOS DE TEXTO */
+.text-field{
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #d4d2e8;
+    -fx-padding: 5;
+}
+
+/* COMBOBOX */
+.combo-box{
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #d4d2e8;
+}
+
+/* BOTON */
+.button{
+    -fx-background-color:#d6e6ff;
+    -fx-text-fill:#2d3c6b;
+    -fx-background-radius:12;
+    -fx-font-weight:bold;
+    -fx-padding:8 18 8 18;
+}
+
+.button:hover{
+    -fx-background-color:#c3dcff;
+}
+
+/* ENCABEZADOS DE TABLA */
+.header{
+    -fx-font-weight:bold;
+    -fx-background-color:#e8e6f7;
+    -fx-padding:8;
+    -fx-border-color:#d4d2e8;
+}
