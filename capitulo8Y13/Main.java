@@ -82,7 +82,7 @@ public class Main {
         } catch (ParseException e) {
 
             System.out.println(
-                "Error: Formato de fecha invalido. Use dd/MM/yyyy.");
+                "Formato de fecha invalido. Utilice dd/MM/yyyy.");
 
         } catch (ReservaInvalidaException e) {
 

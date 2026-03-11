@@ -1,0 +1,51 @@
+.root{
+    -fx-font-family: "Segoe UI";
+    -fx-background-color: #eef2f7;
+}
+
+/* TEXTFIELDS */
+.text-field{
+    -fx-background-color:white;
+    -fx-background-radius:5;
+    -fx-border-radius:5;
+    -fx-border-color:#cbd5e1;
+    -fx-padding:5;
+}
+
+/* BOTONES */
+.button{
+    -fx-background-color:#3b82f6;
+    -fx-text-fill:white;
+    -fx-background-radius:6;
+    -fx-padding:6 14 6 14;
+}
+
+.button:hover{
+    -fx-background-color:#2563eb;
+}
+
+/* BOTON ELIMINAR */
+#btnEliminar{
+    -fx-background-color:#ef4444;
+}
+
+#btnEliminar:hover{
+    -fx-background-color:#dc2626;
+}
+
+/* TABLA */
+.table-view{
+    -fx-background-color:white;
+    -fx-background-radius:8;
+    -fx-border-radius:8;
+}
+
+/* HEADER */
+.table-view .column-header{
+    -fx-background-color:#e2e8f0;
+}
+
+/* FILA SELECCIONADA */
+.table-row-cell:selected{
+    -fx-background-color:#bfdbfe;
+}

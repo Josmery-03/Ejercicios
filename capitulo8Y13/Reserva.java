@@ -14,7 +14,7 @@ public class Reserva {
         // Validar nombre
         if (nombreCliente == null || nombreCliente.trim().isEmpty()) {
             throw new ReservaInvalidaException(
-                    "El nombre del cliente es inválido.");
+                    "El nombre del cliente es invalido.");
         }
 
         // Normalizar nombre
@@ -23,7 +23,7 @@ public class Reserva {
         // Validar fecha
         if (fechaReserva == null) {
             throw new ReservaInvalidaException(
-                    "La fecha de la reserva es inválida.");
+                    "La fecha de la reserva es invalida.");
         }
 
         // Validar cantidad
@@ -57,8 +57,8 @@ public class Reserva {
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
         return "Cliente: " + nombreCliente +
-               " | Fecha: " + sdf.format(fechaReserva) +
-               " | Personas: " + cantidadPersonas;
+               "Fecha: " + sdf.format(fechaReserva) +
+               "Personas: " + cantidadPersonas;
     }
 }
 
